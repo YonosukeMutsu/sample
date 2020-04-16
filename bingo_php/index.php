@@ -22,7 +22,6 @@ $nums = $bingo->create();
         <tr>
           <th>B</th><th>I</th><th>N</th><th>G</th><th>O</th>
         </tr>
-
         <?php for($i = 0; $i < 5; $i++) : ?>
         <tr>
           <?php for($j = 0; $j < 5; $j++) : ?>
@@ -30,7 +29,6 @@ $nums = $bingo->create();
           <?php endfor; ?>
         </tr>
         <?php endfor; ?>
-        
       </table>
     </div>
   </body>
